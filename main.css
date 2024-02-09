@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar { 
+    background-color: black;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+#cabecalho .nav .nav-link,
+.nav .nav-link:hover,
+.nav-perifericos .nav-link.active,
+.nav-perifericos .nav-link.active:hover {
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: black;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.fonte {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.text-white {
+    color: #fff;
+}
+
+#computadores,
+#contato {
+    background-color: black;
+}
+
+#computadores .pc button {
+    font-size: 25px;
+}
+
+.nav-perifericos .nav-link.active,
+.nav-perifericos .nav-link.active:hover {
+    background-color: black;
+}
+
+.nav-perifericos .nav-link,
+.nav-perifericos .nav-link:hover {
+    color: black;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #computadores .pc button {
+        margin-bottom: 20px;
+    }
+}

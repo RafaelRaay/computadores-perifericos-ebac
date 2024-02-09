@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fonte">Computadores e Periféricos</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#computadores" class="nav-link">
+                            <i class="bi bi-pc-display"></i>
+                            Computadores
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#perifericos" class="nav-link">
+                            <i class="bi bi-keyboard"></i>
+                            Periféricos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.jpg" alt="computador gamer">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.jpg" alt="placa de video RTX 2080 e GTX 1080 Ti">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.jpg" alt="periféricos">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/loja/loja.webp" class="d-block w-100 rounded" alt="Espaço interno da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="fonte">Sobre a loja</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quia impedit numquam repellendus ratione earum eveniet dolorem! Accusantium architecto quam, eius nostrum mollitia ullam, quasi similique, alias modi rerum consequuntur.
+                            </p>
+                            <h3 class="fonte">Sobre o espaço</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptatum laborum soluta obcaecati esse eum, quaerat maiores in libero recusandae natus ex dolor repellendus inventore nam pariatur vel deleniti dolorem?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="computadores" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fonte text-center text-white mb-5">Computadores</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 pc">
+                        <img src="images/computadores/pc_gamer_1.jpg" class="d-block w-100 rounded" alt="computador gamer">
+                        <h3 class="text-white fonte pt-3 pb-2">PC GAMER GTX 1650 4GB, CORE i5 10400F, 16GB, SSD M.2 250GB</h3>
+                        <button type="button" class="btn btn-secondary fonte w-100">Comprar</button>
+                    </div>
+                    <div class="col-md-3 pc">
+                        <img src="images/computadores/pc_gamer_1.jpg" class="d-block w-100 rounded" alt="computador gamer">
+                        <h3 class="text-white fonte pt-3 pb-2">PC GAMER GTX 1650 4GB, CORE i5 10400F, 16GB, SSD M.2 250GB</h3>
+                        <button type="button" class="btn btn-secondary fonte w-100">Comprar</button>
+                    </div>
+                    <div class="col-md-3 pc">
+                        <img src="images/computadores/pc_gamer_1.jpg" class="d-block w-100 rounded" alt="computador gamer">
+                        <h3 class="text-white fonte pt-3 pb-2">PC GAMER GTX 1650 4GB, CORE i5 10400F, 16GB, SSD M.2 250GB</h3>
+                        <button type="button" class="btn btn-secondary fonte w-100">Comprar</button>
+                    </div>
+                    <div class="col-md-3 pc">
+                        <img src="images/computadores/pc_gamer_1.jpg" class="d-block w-100 rounded" alt="computador gamer">
+                        <h3 class="text-white fonte pt-3 pb-2">PC GAMER GTX 1650 4GB, CORE i5 10400F, 16GB, SSD M.2 250GB</h3>
+                        <button type="button" class="btn btn-secondary fonte w-100">Comprar</button>                            
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="perifericos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fonte text-center mb-5">Periféricos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-perifericos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mouses" class="fw-bold text-start nav-link active">Mouses</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#teclados" class="fw-bold text-start nav-link">Teclados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#headsets" class="fw-bold text-start nav-link">Headsets</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mousepads" class="fw-bold text-start nav-link">Mousepads</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="mouses">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mouse/mouse-gamer-preto.jpg" class="border border-dark rounded w-100 d-block" alt="mouse gamer preto">
+                                        <h5 class="fonte mt-2">Mouse gamer preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mouse/mouse-gamer-branco.jpg" class="border border-dark rounded w-100 d-block" alt="mouse gamer branco">
+                                        <h5 class="fonte mt-2">Mouse gamer branco</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mouse/mouse-gamer-preto.jpg" class="border border-dark rounded w-100 d-block" alt="mouse gamer preto">
+                                        <h5 class="fonte mt-2">Mouse gamer preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mouse/mouse-gamer-preto.jpg" class="border border-dark rounded w-100 d-block" alt="mouse gamer preto">
+                                        <h5 class="fonte mt-2">Mouse gamer preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mouse/mouse-gamer-preto.jpg" class="border border-dark rounded w-100 d-block" alt="mouse gamer preto">
+                                        <h5 class="fonte mt-2">Mouse gamer preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mouse/mouse-gamer-preto.jpg" class="border border-dark rounded w-100 d-block" alt="mouse gamer preto">
+                                        <h5 class="fonte mt-2">Mouse gamer preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="teclados">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/teclados/teclado-gamer-preto.webp" class="border border-dark rounded w-100 d-block" alt="teclado gamer preto">
+                                        <h5 class="fonte mt-2">Teclado gamer preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/teclados/teclado-gamer-branco.jpg" class="border border-dark rounded w-100 d-block" alt="teclado gamer branco">
+                                        <h5 class="fonte mt-2">Teclado gamer branco</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/teclados/teclado-gamer-preto.webp" class="border border-dark rounded w-100 d-block" alt="teclado gamer preto">
+                                        <h5 class="fonte mt-2">Teclado gamer preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/teclados/teclado-gamer-branco.jpg" class="border border-dark rounded w-100 d-block" alt="teclado gamer branco">
+                                        <h5 class="fonte mt-2">Teclado gamer branco</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/teclados/teclado-gamer-preto.webp" class="border border-dark rounded w-100 d-block" alt="teclado gamer preto">
+                                        <h5 class="fonte mt-2">Teclado gamer preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/teclados/teclado-gamer-branco.jpg" class="border border-dark rounded w-100 d-block" alt="teclado gamer branco">
+                                        <h5 class="fonte mt-2">Teclado gamer branco</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="headsets">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/headset/headset-preto.jpg" class="border border-dark rounded w-100 d-block" alt="headset preto">
+                                        <h5 class="fonte mt-2">Headset preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/headset/headset-branco.jpg" class="border border-dark rounded w-100 d-block" alt="headset branco">
+                                        <h5 class="fonte mt-2">Headset branco</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/headset/headset-preto.jpg" class="border border-dark rounded w-100 d-block" alt="headset preto">
+                                        <h5 class="fonte mt-2">Headset preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/headset/headset-branco.jpg" class="border border-dark rounded w-100 d-block" alt="headset branco">
+                                        <h5 class="fonte mt-2">Headset branco</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/headset/headset-preto.jpg" class="border border-dark rounded w-100 d-block" alt="headset preto">
+                                        <h5 class="fonte mt-2">Headset preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/headset/headset-branco.jpg" class="border border-dark rounded w-100 d-block" alt="headset branco">
+                                        <h5 class="fonte mt-2">Headset branco</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mousepads">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mousepads/mousepad-preto.jpg" class="border border-dark rounded w-100 d-block" alt="mousepad preto">
+                                        <h5 class="fonte mt-2">Mousepad preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mousepads/mousepad-branco.webp" class="border border-dark rounded w-100 d-block" alt="mousepad branco">
+                                        <h5 class="fonte mt-2">Mousepad branco</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mousepads/mousepad-preto.jpg" class="border border-dark rounded w-100 d-block" alt="mousepad preto">
+                                        <h5 class="fonte mt-2">Mousepad preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mousepads/mousepad-preto.jpg" class="border border-dark rounded w-100 d-block" alt="mousepad preto">
+                                        <h5 class="fonte mt-2">Mousepad preto</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mousepads/mousepad-branco.webp" class="border border-dark rounded w-100 d-block" alt="mousepad branco">
+                                        <h5 class="fonte mt-2">Mousepad branco</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/perifericos/mousepads/mousepad-branco.webp" class="border border-dark rounded w-100 d-block" alt="mousepad branco">
+                                        <h5 class="fonte mt-2">Mousepad branco</h5>
+                                        <button type="button" class="btn btn-dark fonte w-100 mb-4">Comprar</button>
+                                    </div>                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fonte text-center text-white mb-5">Contato</h2>  
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label text-white fw-bold">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-white fw-bold">Seu email</label>
+                                <input type="email" id="email" class="form-control" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label text-white fw-bold">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="produto" class="form-label text-white fw-bold">Produto de interesse</label>
+                                <input type="text" id="produto" class="form-control" name="produto">
+                            </div>
+                            <button type="submit" class="btn btn-secondary fonte fs-5">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="fonte text-white fs-4">
+                                <i class="bi bi-hand-thumbs-up"></i>    
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-white"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-white"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-white"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="fonte text-white fs-4">
+                                <i class="bi bi-geo-alt"></i>
+                                Endereço</h3>
+                            <p class="text-white">
+                                Rua do Computador nº 123, Bairro Teclado - Osasco - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
